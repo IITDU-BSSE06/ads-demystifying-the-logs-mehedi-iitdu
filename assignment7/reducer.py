@@ -11,4 +11,5 @@ for line in sys.stdin:
 	requests[line] = 1
 
 for item in requests:
-    print(item)+" "+print(requests[item])
+    result = "{0} {1}".format(item,requests[item])
+    print(result)
