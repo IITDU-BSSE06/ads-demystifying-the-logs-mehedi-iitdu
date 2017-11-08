@@ -16,4 +16,5 @@ for item in files:
 	path = item
 	max_ = files[item]
 
-print("/"+ path +" "+ max_)
+result = "/{0} {1}".format(path, max_)
+print(result)
